@@ -1,0 +1,17 @@
+################################################################################
+##$Date: 2009/05/15 09:10:49 $
+##$Revision: 1.1.2.2 $
+
+################################## Clock Constraints ##########################
+
+NET "Clk" TNM_NET = "Clk";
+NET "Clk125" TNM_NET = "Clk125";
+
+# User Clock
+TIMESPEC "TS_Clk1X" = PERIOD "Clk" 25 ns;
+TIMESPEC "TS_Clk125" = PERIOD "Clk125" 8 ns;
+
+######################## locs for top level ports ######################
+#NET clk LOC = H14; 
+#NET reset LOC = U8;   # GPIO switch North 
+

@@ -1,0 +1,6 @@
+
+#Created by Constraints Editor (xc5vlx50t-ff665-1) - 2012/02/01
+NET "clk10M" TNM_NET = clk10M;
+TIMESPEC TS_clk10M = PERIOD "clk10M" 80 ns HIGH 50%;
+NET "clk125" TNM_NET = clk125;
+TIMESPEC TS_clk125 = PERIOD "clk125" 8 ns HIGH 50%;

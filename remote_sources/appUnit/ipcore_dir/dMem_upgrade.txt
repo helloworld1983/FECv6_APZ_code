@@ -1,0 +1,9 @@
+Tue Oct 11 15:36:14 2011
+
+Upgraded dMem from Block Memory Generator 4.1 to Block Memory Generator 6.2
+
+Added parameter ecctype with value No_ECC
+Added parameter softecc with value false
+Added parameter register_porta_input_of_softecc with value false
+Added parameter register_portb_output_of_softecc with value false
+

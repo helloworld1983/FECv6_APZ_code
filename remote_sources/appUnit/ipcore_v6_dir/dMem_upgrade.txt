@@ -1,0 +1,5 @@
+Fri Apr 04 08:56:28 2014
+
+Upgraded dMem from Block Memory Generator 6.2 to Block Memory Generator 7.3
+
+No changes made to parameter values.
